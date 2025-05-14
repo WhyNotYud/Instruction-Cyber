@@ -13,13 +13,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+
+    <!-- Fontawesome Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!--Main CSS-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <!--Header-->
 <header>
+    <div class="header__top container-fluid d-flex justify-content-between py-2">
+        <div class="header__left ml-3">
+            <a href="tel:0397.030.846" class="text-white mr-4"><i class="fa-solid fa-phone"></i>0397.030.846</a>
+            <a href="mailto:mtd.contactwithme@gmail.com" class="text-white"><i class="fa-regular fa-envelope"></i>mtd.contactwithme@gmail.com</a>
+        </div>
+        <div class="header__right mr-3">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <nav class="nav-instruction navbar navbar-expand-lg container">
+        <a class="navbar-brand" href="#">
+            <p class="mb-0"><i class="fa-solid fa-book"></i> INSTRUCTION</p>
+            <p class="text-center mb-0">EDUCATION</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarInstruction" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarInstruction">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        PAGE
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Codes</a>
+                        <a class="dropdown-item" href="#">Icons</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
 <!--Carosel-->
