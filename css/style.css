@@ -253,3 +253,36 @@ html, body {
     font-weight: 300;
 }
 
+/*Offer*/
+.offer__col {
+    padding: 15px;
+}
+
+.offer__item {
+    padding: 25px 40px;
+    box-shadow: 0 1px 8px 0 rgba(158, 158, 158, 0.75);
+    text-align: center;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.offer__item i {
+    color: #ff4f81;
+    font-size: 40px;
+}
+
+.offer__item h3 {
+    font-size: 20px;
+    color: black;
+    margin: 25px 0 20px;
+}
+
+.offer__item p {
+    color: #6b6b6b;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.offer__item:hover {
+    background-color: #12ccc3;
+}
