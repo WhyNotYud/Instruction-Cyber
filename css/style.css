@@ -286,3 +286,81 @@ html, body {
 .offer__item:hover {
     background-color: #12ccc3;
 }
+
+/*Feedback*/
+.feedback {
+    background-image: url("../images/banner3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback__content {
+    background: rgba(0, 0, 0, 0.47);
+    padding: 1rem;
+    box-shadow: 0 1px 7px #8e8e8e;
+}
+
+.feedback__content .item {
+    color: white;
+    padding: 1rem;
+}
+
+.feedback__top {
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.feedback__top::after {
+    position: absolute;
+    top: 100%;
+    left: 28%;
+    content: "";
+    border-top: 9px solid rgba(0, 0, 0, 0.47);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+}
+
+.feedback__bottom {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback__content .feedback__bottom img {
+    width: 28%;
+    display: inline-block;
+}
+
+.feedback__name p {
+    margin: 0;
+    color: #ff4f81;
+}
+
+.feedback__name {
+    margin-left: 5px;
+}
+
+.feedback__name p:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot span {
+    background-color: #ff4f81;
+    opacity: 0.5;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot.active span, .feedback__content .owl-theme .owl-dots .owl-dot:hover span {
+    opacity: 1;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot:focus {
+    outline: none;
+}
