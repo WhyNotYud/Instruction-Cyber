@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
 
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <!-- Fontawesome Icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -284,8 +288,82 @@
 </section>
 
 <!--Feedback-->
-<section class="feedback">
-
+<section class="feedback section">
+    <div class="heading heading--white">
+        <h2>TESTIMONIALS</h2>
+        <p>when climbing the carrer ladder</p>
+    </div>
+    <div class="container">
+        <div class="feedback__content">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="feedback__top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__bottom">
+                        <img src="./images/test1.jpg" alt="">
+                        <div class="feedback__name">
+                            <p>Mary Jane</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__bottom">
+                        <img src="./images/test2.jpg" alt="">
+                        <div class="feedback__name">
+                            <p>Peter</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__bottom">
+                        <img src="./images/test3.jpg" alt="">
+                        <div class="feedback__name">
+                            <p>Steven</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__bottom">
+                        <img src="./images/test1.jpg" alt="">
+                        <div class="feedback__name">
+                            <p>Wilson</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__bottom">
+                        <img src="./images/test2.jpg" alt="">
+                        <div class="feedback__name">
+                            <p>Guptill</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!--News-->
@@ -302,5 +380,24 @@
 <script src="./js/jquery.min.js"></script>
 <!--Bootstrap JS-->
 <script src="./js/bootstrap.bundle.min.js"></script>
+<!--Owl Carousel JS-->
+<script src="./js/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
 </body>
 </html>
